@@ -1,87 +1,189 @@
-# Portfolio Website - Khulekani Mtshali
-I'm Khulekani Mtshali, a passionate Software Developer from South Africa. I specialize in building responsive web applications with clean, efficient code.
-A responsive portfolio website showcasing my skills, projects, and experience as a software developer.
+# Asavela Ngqose - Portfolio Website
 
-### Education
-- **Bachelor of Science in Computer Science**  
-  University of the Western Cape (2019)
-- **High School Diploma**  
-  Tholukukhanya High School
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a Software Developer.
 
-### Experience
-- **Software Development Learnership** @ CapaCiTi (Current)
-- **Teacher Assistant** @ Mvuzini Secondary School (2021-2022)
-- **Mathematics Tutor** @ University of the Western Cape (2016-2019)
+## 🌟 Features
+
+- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
+- **Interactive Typewriter Effect** - Dynamic text animation on the homepage
+- **Smooth Scrolling Navigation** - Seamless navigation between sections
+- **CV Download** - Direct download functionality for my resume
+- **Contact Form** - Integrated contact form using Web3Forms
+- **Project Showcase** - Interactive project gallery with hover effects
+- **Skills Visualization** - Progress bars showing technical proficiencies
+
+## 🛠️ Technologies Used
+
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Custom styling with Flexbox and Grid
+- **JavaScript** - Interactive functionality and animations
+- **Google Fonts** - Poppins font family
+- **Boxicons** - Icon library for UI elements
+- **Web3Forms** - Contact form handling
+- **ScrollReveal** - Scroll animations
+
+## 📁 Project Structure
+
+```
+portfolio-website/
+├── index.html              # Main HTML file
+├── assets/
+│   ├── css/
+│   │   └── styles.css      # Main stylesheet
+│   ├── js/
+│   │   └── main.js         # JavaScript functionality
+│   └── img/                # Image assets
+│       ├── perfil.jpg      # Profile image
+│       ├── about.jpg       # About section image
+│       └── work*.jpg       # Project thumbnails
+└── README.md              # Project documentation
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- Basic understanding of HTML/CSS/JavaScript (for modifications)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AsavelaNgqose/portfolio-website.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd portfolio-website
+   ```
+
+3. **Open in your browser**
+   - Simply open `index.html` in your preferred web browser
+   - Or use a local server like Live Server in VS Code
+
+### Live Preview
+
+You can also view the live version at: [Your GitHub Pages URL]
+
+## 📱 Sections
+
+### Home
+- Interactive typewriter animation
+- Social media links (LinkedIn, Behance, GitHub)
+- Call-to-action buttons
+
+### About
+- Personal introduction and background
+- Tabbed content for Education and Experience
+- Professional summary
 
 ### Skills
-- Frontend: HTML5, CSS3, JavaScript
-- Design: UI/UX Principles
-- Soft Skills: Problem-solving, Teamwork, Communication
+- Technical skills with proficiency indicators
+- HTML5, Visual Basic, Python, Java
 
-### What I Do
-I create beautiful, functional websites that focus on user experience. When I'm not coding, I enjoy mentoring others and contributing to open source projects.
+### Projects
+- Interactive project gallery
+- Hover effects with project descriptions
+- Links to live demos and GitHub repositories
 
-## Features
-- Fully responsive design
-- Interactive sections (About, Skills, Projects, Contact)
-- Smooth animations and transitions
-- Working contact form
+### Contact
+- Functional contact form
+- Direct integration with Web3Forms
+- Form validation and success feedback
 
-## Project Structure
+## 🎨 Customization
 
-portfolio/
+### Colors
+The website uses CSS custom properties for easy theming:
 
-├── index.html
+```css
+:root {
+  --hue-color: 224;
+  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --second-color: hsl(var(--hue-color), 56%, 12%);
+}
+```
 
-├── assets/
+### Content Updates
+- Update personal information in `index.html`
+- Replace project images in `assets/img/`
+- Modify project links and descriptions
+- Update social media links
 
-│  ├── css/
+### Adding New Projects
+1. Add project image to `assets/img/`
+2. Create new project item in the work section:
+```html
+<div class="work__item">
+    <a href="your-project-link" target="_blank" class="work__img">
+        <img src="assets/img/your-image.jpg" alt="Project Name">
+        <div class="work__overlay">
+            <div class="work__overlay-content">
+                <h3 class="work__overlay-title">Project Name</h3>
+                <p class="work__overlay-subtitle">Click to view on GitHub</p>
+            </div>
+        </div>
+    </a>
+</div>
+```
 
-│  │ └── styles.css
+## 📋 Contact Form Setup
 
-│  ├── js/
+The contact form uses Web3Forms. To set up your own:
 
-│  │  └── main.js
+1. Visit [Web3Forms](https://web3forms.com/)
+2. Get your access key
+3. Replace the access key in the HTML:
+```html
+<input type="hidden" name="access_key" value="your-access-key-here">
+```
 
-│  ├── img/
+## 🔧 Browser Support
 
-│  │  ├── perfil.png
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-│  │  ├── about.jpg
+## 📈 Performance Features
 
-│  │  ├── work1.jpg
+- Optimized images
+- Minified CSS and JavaScript
+- Efficient animations
+- Mobile-first responsive design
+- Fast loading times
 
-│  │  ├── work2.jpg
+## 🤝 Contributing
 
-│  │  ├── work3.jpg
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-│  │  ├── work4.jpg
+## 📄 License
 
-│  │  ├── work5.jpg
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-│ │  └── work6.jpg
+## 👨‍💻 Author
 
-│  └── docs/
+**Asavela Ngqose**
+- LinkedIn: [Asavela Ngqose](https://www.linkedin.com/in/asavela-ngqose-976a1816a/)
+- GitHub: [@AsavelaNgqose](https://github.com/AsavelaNgqose)
 
-│  └── Khulekani_Mtshali_CV.pdf
+## 🙏 Acknowledgments
 
- └── README.md
+- [Poppins Font](https://fonts.google.com/specimen/Poppins) by Google Fonts
+- [Boxicons](https://boxicons.com/) for the icon library
+- [Web3Forms](https://web3forms.com/) for contact form handling
+- [ScrollReveal](https://scrollrevealjs.org/) for scroll animations
 
- ## Setup
-1. Clone the repository:
-```bash
-git clone https://github.com/Mkhulekani/portfolio.git
-cd portfolio
+## 📞 Support
 
-Technologies Used
-HTML5
+If you have any questions or need support, please feel free to reach out through the contact form on the website or create an issue in this repository.
 
-CSS3
+---
 
-JavaScript
-
-ScrollReveal.js
-
-Boxicons
-
-Font Awesome
+⭐ **Star this repository if you found it helpful!**
